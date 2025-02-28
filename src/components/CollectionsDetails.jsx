@@ -6,9 +6,11 @@ import arrowLightUp from '../assets/img/arrow-light-up.png'
 import arrowLightDown from '../assets/img/arrow-light-down.png'
 import arrowDarkUp from '../assets/img/arrow-dark-up.png'
 import arrowDarkDown from '../assets/img/arrow-dark-down.png'
+import gif from '../assets/img/gif.gif'
 
 const CollectionsDetails = () => {
 
+  const [loading, setLoading] = useState(true);
   const { collectionId } = useParams();
   const [collection, setCollection] = useState(null);
   const [songsList, setSongsList] = useState([]);
@@ -17,6 +19,11 @@ const CollectionsDetails = () => {
 
   useEffect(() => {
     getCollectionDetails(collectionId).then((data) => { setCollection(data); setSongsList(data.songs) });
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
   }, [collectionId]);
 
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
@@ -49,7 +56,7 @@ const CollectionsDetails = () => {
   };
 
   return (
-    <>
+    <div className="collections-container">
       {collection && <> <div style={{ fontSize: 10, padding: 10, cursor: "pointer" }}><span onClick={() => navigate('/')}>Overview</span>&nbsp;&nbsp; <RightOutlined />  &nbsp;&nbsp; {collection.name} </div> <div className="header">&nbsp;&nbsp;
         {collection.name}
       </div>
@@ -119,8 +126,13 @@ const CollectionsDetails = () => {
               )}
             </tbody>
           </table>
+           {loading && (
+                    <div className="loading-overlay">
+                      <img src={gif} alt="Loading..." />
+                    </div>
+                  )}
         </div></>}
-    </>
+    </div>
   )
 }
 

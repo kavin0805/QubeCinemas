@@ -1,5 +1,5 @@
 Overview
-This project is built using Ant Design (AntD) as the primary UI framework. It includes a customized table with advanced filtering, a search box, and a loading animation for better user experience.
+This project is built using Ant Design (AntD) as the primary UI framework. It includes a customized table with advanced filtering, a search box, and a loading animation for better user experience. Additionally, a mock API server is used for testing with json-server.
 
 
 ✅ 1. Ant Design Framework
@@ -22,3 +22,7 @@ Search Box: A search field allows quick lookup of data entries.
 ✅ 5. View Details Feature
 The first three data rows have a "View Details" option.
 Clicking on a row provides additional information about that entry.
+
+✅ 6. Mock API Server with json-server
+A mock API runs on http://localhost:3001.
+The API is served using json-server for testing purposes.
