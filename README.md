@@ -1,12 +1,24 @@
-# React + Vite
+Overview
+This project is built using Ant Design (AntD) as the primary UI framework. It includes a customized table with advanced filtering, a search box, and a loading animation for better user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+✅ 1. Ant Design Framework
+The project utilizes Ant Design (AntD) components to ensure a modern and responsive UI.
+Provides pre-built UI components for faster development and consistency.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ 2. Customized Table
+The table is customized beyond the default AntD Table component.
+Includes additional styles and functionalities to improve usability.
 
-## Expanding the ESLint configuration
+✅ 3. Loading GIF & Empty State Handling
+A loading GIF is displayed for the first 5 seconds when data is being fetched.
+If no data is available, it shows a "No Data Found" message instead of an empty table.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ 4. Filtering & Search Box
+The table supports both filtering and searching:
+Filter: Users can filter data based on specific criteria.
+Search Box: A search field allows quick lookup of data entries.
+
+✅ 5. View Details Feature
+The first three data rows have a "View Details" option.
+Clicking on a row provides additional information about that entry.
