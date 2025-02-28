@@ -1,0 +1,157 @@
+.collections-container {
+  position: relative;
+}
+
+/* Loading overlay that covers the entire container */
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* light transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Adjust GIF size if needed */
+.loading-overlay img {
+  width: 100px;
+}
+
+
+.header {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.details{
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details .content{
+  color: #000;
+  font-size: 14px;
+}
+
+.details span{
+  color: #878787;
+  font-size: 12px;
+}
+
+.table {
+  background-color: #fff;
+  height: 85vh;
+  margin: 20px;
+  border-radius: 10px;
+  overflow:auto ;
+}
+
+.table .filters {
+  padding: 20px 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.table .filters span {
+  font-size: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Set specific widths for table columns */
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 20px;
+}
+
+/* Adjust column widths */
+th:nth-child(1),
+td:nth-child(1) {
+  width: 35%; /* Collection Name - More width */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 10%; /* Type - Shorter width */
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 12%; /* Song Count - Shorter width */
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 10%; /* Duration (mins) - Shorter width */
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  width: 10%; /* Size (Bytes) - Shorter width */
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+  width: 13%; /* Released On - Slightly more width */
+}
+
+th:nth-child(7),
+td:nth-child(7) {
+  width: 12%; /* Actions - Shortest width */
+}
+
+tr {
+  border-bottom: 1px solid #ddd; /* Adds bottom border to each row */
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.sort-arrows {
+  /* display: flex;
+  flex-direction: column; */
+  /* font-size: 12px;
+  margin-left: 5px;
+  align-items: center; */
+  position: absolute;
+  margin-left: 5px;
+  align-items: center;
+  top: 5px;
+}
+
+.arrow {
+  color: #ccc;
+  line-height: 10px;
+}
+
+.arrow.active {
+  color: white;
+}

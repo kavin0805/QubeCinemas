@@ -1,0 +1,296 @@
+{
+  "collections": [
+    {
+      "id": "1",
+      "name": "ERC Tin Tay App Official Content Album",
+      "artist": "Jorge Brown-Herman",
+      "type": "Album",
+      "songCount": 5,
+      "duration": "00:15:40",
+      "size": "45 MB",
+      "releasedOn": "03 Sept 2024, 02:25 PM"
+    },
+    {
+      "id": "2",
+      "name": "ERC Tin Ooans Sage Official Concept Album",
+      "artist": "Jorge Brown-Herman",
+      "type": "Album",
+      "songCount": 5,
+      "duration": "00:13:00",
+      "size": "15 MB",
+      "releasedOn": "04 Sept 2024, 00:06 AM"
+    },
+    {
+      "id": "3",
+      "name": "ERC Tin Italia Saga Official Content Album",
+      "artist": "Jorge Brown-Herman",
+      "type": "Album",
+      "songCount": 5,
+      "duration": "00:12:24",
+      "size": "30 MB",
+      "releasedOn": "04 Sept 2024, 00:06 AM"
+    },
+    {
+      "id": "4",
+      "name": "Collection Name",
+      "artist": "Artist Name",
+      "type": "Album",
+      "songCount": 6,
+      "duration": "00:21:06",
+      "size": "12 MB",
+      "releasedOn": "10 Oct 2024, 03:35 PM"
+    },
+    {
+      "id": "5",
+      "name": "Collection Name",
+      "artist": "Artist Name",
+      "type": "Album",
+      "songCount": 7,
+      "duration": "00:20:22",
+      "size": "10 MB",
+      "releasedOn": "04 Sept 2024, 03:31 AM"
+    },
+    {
+      "id": "6",
+      "name": "Collection Name",
+      "artist": "Artist Name",
+      "type": "Album",
+      "songCount": 9,
+      "duration": "00:25:40",
+      "size": "16 MB",
+      "releasedOn": "05 Sept 2024, 12:27 AM"
+    },
+    {
+      "id": "7",
+      "name": "Collection Name",
+      "artist": "Artist Name",
+      "type": "Single",
+      "songCount": 1,
+      "duration": "00:01:20",
+      "size": "24 MB",
+      "releasedOn": "11 Oct 2024, 12:31 AM"
+    },
+    {
+      "id": "8",
+      "name": "Collection Name",
+      "artist": "Artist Name",
+      "type": "Single",
+      "songCount": 1,
+      "duration": "00:01:20",
+      "size": "24 MB",
+      "releasedOn": "11 Oct 2024, 12:31 AM"
+    },
+    {
+      "id": "9",
+      "name": "Collection Name",
+      "artist": "Artist Name",
+      "type": "Single",
+      "songCount": 1,
+      "duration": "00:01:20",
+      "size": "24 MB",
+      "releasedOn": "11 Oct 2024, 12:31 AM"
+    },
+    {
+      "id": "10",
+      "name": "Collection Name",
+      "artist": "Artist Name",
+      "type": "Single",
+      "songCount": 1,
+      "duration": "00:01:20",
+      "size": "24 MB",
+      "releasedOn": "11 Oct 2024, 12:31 AM"
+    },
+    {
+      "id": "11",
+      "name": "Collection Name",
+      "artist": "Artist Name",
+      "type": "Single",
+      "songCount": 1,
+      "duration": "00:01:20",
+      "size": "24 MB",
+      "releasedOn": "11 Oct 2024, 12:31 AM"
+    }
+  ],
+    "collectionDetails": [
+      {
+        "id": "1",
+        "name": "ERC Tin Tay App Official Content Album",
+        "artist": "Jorge Rivera-Herrana",
+        "type": "EP",
+        "songCount": 5,
+        "totalSize": "100 MB",
+        "totalDuration": "15 minutes 40 seconds",
+        "releasedOn": "10 Nov 2023",
+        "genre": "Soundtrack, Musical",
+        "label": "EPIC Records",
+        "producer": "Jorge Rivera-Herrana",
+        "songs": [
+          {
+            "title": "The Horse and the Infine",
+            "performers": ["Jorge Rivera-Herrana", "Louis Hubb", "Casa of EPIC; The Musical"],
+            "duration": "0.002185",
+            "size": "16 MB",
+            "lyricsBy": "Jorge Rivera-Herrana",
+            "composedBy": "Jorge Rivera-Herrana",
+            "producedBy": "Jorge Rivera-Herrana"
+          },
+          {
+            "title": "Juan Alton",
+            "performers": ["Jorge Rivera-Herrana", "Casa of EPIC; The Musical"],
+            "duration": "0.002210",
+            "size": "16 MB",
+            "lyricsBy": "Jorge Rivera-Herrana",
+            "composedBy": "Jorge Rivera-Herrana",
+            "producedBy": "Jorge Rivera-Herrana"
+          },
+          {
+            "title": "Full Speed Award",
+            "performers": ["Jorge Rivera-Herrana", "Armando Juliás", "Steven Doude", "Casa of EPIC; The Musical"],
+            "duration": "0.005410",
+            "size": "24 MB",
+            "lyricsBy": "Jorge Rivera-Herrana",
+            "composedBy": "Jorge Rivera-Herrana",
+            "producedBy": "Jorge Rivera-Herrana"
+          },
+          {
+            "title": "Ozan Arme",
+            "performers": ["Jorge Rivera-Herrana", "Steven Doude"],
+            "duration": "0.005410",
+            "size": "23 MB",
+            "lyricsBy": "Jorge Rivera-Herrana",
+            "composedBy": "Jorge Rivera-Herrana",
+            "producedBy": "Jorge Rivera-Herrana"
+          },
+          {
+            "title": "Warrior of the Mind",
+            "performers": ["Jorge Rivera-Herrana", "Teague Earley", "Casa of EPIC; The Musical"],
+            "duration": "0.005410",
+            "size": "22 MB",
+            "lyricsBy": "Jorge Rivera-Herrana",
+            "composedBy": "Jorge Rivera-Herrana",
+            "producedBy": "Jorge Rivera-Herrana"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "ERC Tin Ooans Sage Official Concept Album",
+        "artist": "Jorge Brown-Herman",
+        "type": "Album",
+        "songCount": 5,
+        "totalSize": "45 MB",
+        "totalDuration": "15 minutes 00 seconds",
+        "releasedOn": "03 Sept 2024, 02:25 PM",
+        "genre": "Pop, Soundtrack",
+        "label": "Tin Tay Records",
+        "producer": "Jorge Brown-Herman",
+        "songs": [
+          {
+            "title": "Tin Tay Theme",
+            "performers": ["Jorge Brown-Herman", "Tin Tay Choir"],
+            "duration": "0.003000",
+            "size": "9 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          },
+          {
+            "title": "Rise of the App",
+            "performers": ["Jorge Brown-Herman", "Tin Tay Choir"],
+            "duration": "0.003100",
+            "size": "9 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          },
+          {
+            "title": "Digital Revolution",
+            "performers": ["Jorge Brown-Herman", "Tin Tay Choir"],
+            "duration": "0.003200",
+            "size": "9 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          },
+          {
+            "title": "Code of Honor",
+            "performers": ["Jorge Brown-Herman", "Tin Tay Choir"],
+            "duration": "0.003300",
+            "size": "9 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          },
+          {
+            "title": "Final Build",
+            "performers": ["Jorge Brown-Herman", "Tin Tay Choir"],
+            "duration": "0.003400",
+            "size": "9 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "ERC Tin Italia Saga Official Content Album",
+        "artist": "Jorge Brown-Herman",
+        "type": "Album",
+        "songCount": 5,
+        "totalSize": "15 MB",
+        "totalDuration": "15 minutes 10 seconds",
+        "releasedOn": "04 Sept 2024, 00:06 AM",
+        "genre": "Soundtrack, Orchestral",
+        "label": "Ooans Records",
+        "producer": "Jorge Brown-Herman",
+        "songs": [
+          {
+            "title": "Ooans Overture",
+            "performers": ["Jorge Brown-Herman", "Ooans Orchestra"],
+            "duration": "0.003500",
+            "size": "3 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          },
+          {
+            "title": "Sage's Journey",
+            "performers": ["Jorge Brown-Herman", "Ooans Orchestra"],
+            "duration": "0.003600",
+            "size": "3 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          },
+          {
+            "title": "Echoes of the Past",
+            "performers": ["Jorge Brown-Herman", "Ooans Orchestra"],
+            "duration": "0.003700",
+            "size": "3 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          },
+          {
+            "title": "The Final Battle",
+            "performers": ["Jorge Brown-Herman", "Ooans Orchestra"],
+            "duration": "0.003800",
+            "size": "3 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          },
+          {
+            "title": "Legacy of the Sage",
+            "performers": ["Jorge Brown-Herman", "Ooans Orchestra"],
+            "duration": "0.003900",
+            "size": "3 MB",
+            "lyricsBy": "Jorge Brown-Herman",
+            "composedBy": "Jorge Brown-Herman",
+            "producedBy": "Jorge Brown-Herman"
+          }
+        ]
+      }
+    ]
+}
